@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "745671686668",
+    "project_id": "kpsschataa",
+    "storage_bucket": "kpsschataa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745671686668:android:2b819f8465dfd366758c29",
+        "android_client_info": {
+          "package_name": "com.example.kpsschatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745671686668-uecmv58lg71e2bc15btrkfemuua8ldes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1mxdb_5BI45OqXFvjwdainTKC2TGx2lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745671686668-uecmv58lg71e2bc15btrkfemuua8ldes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
