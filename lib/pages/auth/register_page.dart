@@ -1,6 +1,9 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:kpsschatapp/service/auth_service.dart';
+import '../../helper/helper_function.dart';
 import '../../widgets/widgets.dart';
+import '../home_page.dart';
 import 'login_page.dart';
 
 class RegisterPage extends StatefulWidget {
@@ -16,6 +19,7 @@ class _RegisterPageState extends State<RegisterPage> {
   String email = "";
   String password = "";
   String fullName = "";
+  AuthService authService = AuthService();
 
   @override
   Widget build(BuildContext context) {
@@ -159,8 +163,8 @@ class _RegisterPageState extends State<RegisterPage> {
     );
   }
 
-  register() {}
-/*async {
+  register()
+async {
     if (formKey.currentState!.validate()) {
       setState(() {
         _isLoading = true;
@@ -183,5 +187,5 @@ class _RegisterPageState extends State<RegisterPage> {
       });
     }
   }
-}*/
 }
+
