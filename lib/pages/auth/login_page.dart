@@ -29,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
         body: _isLoading
             ? Center(
           child: CircularProgressIndicator(
-              color: Colors.white),
+              color: Theme.of(context).primaryColor),
         )
             : SingleChildScrollView(
       child: Padding(
@@ -62,6 +62,7 @@ class _LoginPageState extends State<LoginPage> {
                     prefixIcon: Icon(
                       Icons.email,
                       color: Colors.black,
+
                     )),
                 onChanged: (val) {
                   setState(() {
@@ -109,7 +110,7 @@ class _LoginPageState extends State<LoginPage> {
                 width: double.infinity,
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.black,
+                      primary: Theme.of(context).primaryColor,
                       elevation: 0,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30),

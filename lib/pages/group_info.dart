@@ -64,7 +64,7 @@ class _GroupInfoState extends State<GroupInfo> {
                       return AlertDialog(
                         title: const Text("Çıkış"),
                         content:
-                        const Text("Gruptan çıktığına emin misin?"),
+                        const Text("Gruptan çıkmak istediğine emin misin?"),
                         actions: [
                           IconButton(
                             onPressed: () {
@@ -183,12 +183,12 @@ class _GroupInfoState extends State<GroupInfo> {
               );
             } else {
               return const Center(
-                child: Text("NO MEMBERS"),
+                child: Text("Üye Bulunmuyor"),
               );
             }
           } else {
             return const Center(
-              child: Text("NO MEMBERS"),
+              child: Text("Üye Bulunmuyor"),
             );
           }
         } else {

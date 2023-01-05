@@ -107,7 +107,7 @@ class _HomePageState extends State<HomePage> {
               ),
               ListTile(
                 onTap: () {},
-                selectedColor: Colors.white,
+                selectedColor: Colors.black,
                 selected: true,
                 contentPadding:
                 const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
@@ -126,9 +126,10 @@ class _HomePageState extends State<HomePage> {
                         email: email,
                       ));
                 },
+                selectedColor: Colors.black,
                 contentPadding:
                 const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
-                leading: const Icon(Icons.group),
+                leading: const Icon(Icons.person),
                 title: const Text(
                   "Profilim",
                   style: TextStyle(color: Colors.black),

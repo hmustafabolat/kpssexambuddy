@@ -26,7 +26,7 @@ class _RegisterPageState extends State<RegisterPage> {
     return Scaffold(
       body: _isLoading
           ? Center(
-              child: CircularProgressIndicator(color: Colors.black),
+              child: CircularProgressIndicator(color: Theme.of(context).primaryColor),
             )
           : SingleChildScrollView(
               child: Padding(
@@ -123,7 +123,7 @@ class _RegisterPageState extends State<RegisterPage> {
                           width: double.infinity,
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.black,
+                                primary: Theme.of(context).primaryColor,
                                 elevation: 0,
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(30))),
